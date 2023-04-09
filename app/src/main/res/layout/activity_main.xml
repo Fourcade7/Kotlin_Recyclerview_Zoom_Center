@@ -10,7 +10,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:foregroundGravity="center"
         android:clipToPadding="false"
-        android:overScrollMode="never"
+        android:overScrollMode="ifContentScrolls"
         android:id="@+id/recyclerview1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>

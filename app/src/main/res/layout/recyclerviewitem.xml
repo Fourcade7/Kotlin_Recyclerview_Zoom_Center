@@ -8,9 +8,8 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardCornerRadius="8dp"
-        app:cardElevation="6dp"
-        app:cardUseCompatPadding="true">
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="8dp">
         <ImageView
             android:scaleType="centerCrop"
             android:id="@+id/imageview1"
