@@ -15,4 +15,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
 
+    <com.arindicatorview.ARIndicatorView
+
+        android:id="@+id/ar_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:indicator_size="40"
+        app:number_of_indicators="3"
+        app:indicator_color="@color/colorAccent"
+        app:selected_color="@color/colorPrimary"
+        app:indicator_animation="@anim/zoom_in"
+        app:indicator_shape="@drawable/backgroundforindeicator"
+        app:indicator_scrubbing="true"
+        app:animate_indicator_scrubbing="true"
+        />
 </LinearLayout>
+
+<!--    -->

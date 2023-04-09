@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
             R.drawable.swift,
             R.drawable.yandex,
             R.drawable.youtube,
+
         )
 
 
@@ -88,6 +89,8 @@ class MainActivity : AppCompatActivity() {
             Handler(Looper.getMainLooper()).postDelayed({
                 binding.recyclerview1.smoothScrollToPosition(0)
             }, 200)
+            binding.arIndicator.attachTo(this,false)
+            //binding.arIndicator.numberOfIndicators=3
 
 
 
